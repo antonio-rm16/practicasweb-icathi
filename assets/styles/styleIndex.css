@@ -1,0 +1,54 @@
+nav{
+    background-color: blue;
+    height: 80px;
+    display: flex;
+    padding: 0;
+}
+.logo{
+    width: 30%;
+    display: flex;
+    justify-content: center;
+}
+.enlaces{
+    width: 70%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+    padding-right: 80px;
+    align-items: center;
+    position: relative;
+}
+.imglogo{
+    width: 110px;
+    height: 40px;
+}
+.lupa{
+    width: 60px;
+    height: 40px;
+}
+
+.menuPlanta{
+    display: none;
+    position: absolute;
+}
+
+.enlaces:hover .menuplanta{display: block;}
+
+a{
+    margin: 0 0px;
+    padding: 15px 15px;
+    color: white;
+    font-size: 18pt;
+    height: 50px;
+    text-decoration: none;
+}
+a:hover{
+    background-color: skyblue;
+    color: black;
+    transform: scale(1.05);
+    border-radius: 8px;
+    box-shadow: 3px 2px 2px gray;
+}
+div{
+    padding: 20px;
+}

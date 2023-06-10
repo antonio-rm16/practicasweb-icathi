@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./assets/styles/styleTablas.css">
+    <link rel="stylesheet" href="./assets/styles/styleIndex.css"> 
+</head>
+<body>
+    <nav>
+        <div class="logo">
+             <img class="imglogo" alt="logo" src="https://static.vecteezy.com/system/resources/previews/004/813/084/non_2x/card-line-for-web-presentation-logo-icon-symbol-free-vector.jpg">
+        </div>
+
+        <div class="enlaces">
+            <img class="lupa" alt="búsqueda" src="./assets/images/search.png">
+            <a href="./index.html">Inicio |</a>
+            <a href="./planta.html">Planta |</a>
+            <a href="./perfil.html">Perfil |</a>
+            <a href="./tablas.html">Tablas |</a>
+            <a href="./tarjetaBlog.html">Entrada-blog |</a>
+        </div>
+    </nav>
+
+
+    <h1>Prácticas básicas con tablas</h1>
+    <table class="tabla1">
+        <caption>Tabla1: Datos familiares</caption>
+        <thead>
+            <tr>
+                <th>No.</th> <th>Nombre</th> <th>Parentezco</th> <th>Teléfono</th> <th>E-mail</th>   
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>1.-</td> <td>Ciro Antonio Riveros</td><td>Tutor</td><td>7751135942</td><td>c.antonio.rm16@gmail.com</td>
+            </tr>
+            <tr>
+                <td>2.-</td> <td>Rocío Hernández</td><td>Mamá</td><td>7751135942</td><td>c.antonio.rm16@gmail.com</td>
+            </tr>
+            <tr>
+                <td>3.-</td> <td>Citlaly Rodríguez</td><td>Hermana</td><td>7751135942</td><td>c.antonio.rm16@gmail.com</td>
+            </tr>
+            <tr>
+                <td>4.-</td> <td>Deysi Zunun</td><td>Tía</td><td>7751135942</td><td>c.antonio.rm16@gmail.com</td>
+            </tr>
+            <tr>
+                <td>5.-</td> <td>Alan Gómez</td><td>Hijo</td><td>7751135942</td><td>c.antonio.rm16@gmail.com</td>
+            </tr>
+            <tr>
+                <td>6.-</td> <td>Clara Hernández</td><td>Hermana</td><td>7751135942</td><td>c.antonio.rm16@gmail.com</td>
+            </tr>
+            <tr>
+                <td>7.-</td> <td>Héctor Hernández</td><td>Papá</td><td>7751135942</td><td>c.antonio.rm16@gmail.com</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            
+        </tfoot>
+    </table>
+
+
+    <table class="tabla2">
+        <caption>Tabla2: Notas</caption>
+        <thead>
+            <tr class="misNotas">
+                <th colspan="5">Mis notas</th>    
+            </tr>
+            <tr class="cabeceraNotas">
+                <th>No.</th>
+                <th>MATERIA</th> 
+                <th>PRIMER B</th> 
+                <th>SEGUNDO B</th>
+                <th>PROMEDIO</th>   
+            </tr>
+        </thead>
+        <tbody class="contenido2">
+             <tr>
+                <td>1.-</td>
+                <td class="materias">Español</td>
+                <td>3.85</td>
+                <td>4.20</td>
+                <td>4.02</td>
+            </tr>
+            <tr>
+                <td>2.-</td>
+                <td class="materias">Matemáticas</td>
+                <td>4.10</td>
+                <td>3.95</td>
+                <td>4.02</td>
+            </tr>
+            <tr>
+                <td>3.-</td>
+                <td class="materias">Tecnología</td>
+                <td>3.59</td>
+                <td>3.70</td>
+                <td>3.64</td>
+            </tr>
+            <tr>
+                <td>4.-</td>
+                <td class="materias">Sociales</td>
+                <td>4</td>
+                <td>3.65</td>
+                <td>3.82</td>
+            </tr>
+            <tr>
+                <td>5.-</td>
+                <td class="materias">Ed. Física</td>
+                <td>3.80</td>
+                <td>4.25</td>
+                <td>4.02</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            
+        </tfoot>
+    </table>
+
+    <table class="tabla3">
+        <caption>Tabla3: Valores </caption>
+            <tr>
+                <td style="background-color: lightblue;">Respeto</td>
+                <td style="background-color: coral;">Amor</td>
+                <td style="background-color: lightgray;">Libertad</td>
+                <td style="background-color: lightgreen;">Justicia</td>
+            </tr>
+
+            <tr>
+                <td>Disciplina</td>
+                <td rowspan="2" colspan="2">Valores</td>
+                <td>Tolerancia</td>  
+            </tr>
+
+            <tr>
+                <td>Diálogo</td>
+                <td>Equidad</td>
+            </tr>
+
+            <tr>
+                <td>Lealtad</td>
+                <td>Responsabilidad</td>
+                <td>Honestidad</td>
+                <td>Paz</td>
+            </tr>
+    </table>
+
+</body>
+</html>

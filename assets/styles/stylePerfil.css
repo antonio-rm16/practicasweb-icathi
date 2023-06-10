@@ -1,0 +1,47 @@
+section{
+    width: 350px;
+    height: 430px;
+    border:4px solid gray;
+    border-radius: 12px;
+    background-color: bisque;
+    margin: 50px auto;
+    padding-bottom: 0;
+}
+.imgperfil{
+    margin-left: 105px ;
+    margin-top: -70px;
+    width: 140px;
+    height: 140px;
+    border: 2px solid white;
+    border-radius: 50%;
+}
+.divdatos{
+    background-color: lightseagreen;
+    margin-top: 70px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+    height: 137px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+h2{
+  text-align: center;  
+}
+p{
+   margin:5px 30px;
+   text-align: center;
+   font-size: 22px;
+   color:gray
+}
+h3{
+text-align: center;
+color: white;
+margin:0;
+font-size: 22px;
+}
+h4{
+text-align: center;
+color: white;
+margin:0;
+font-size: 12px;
+}

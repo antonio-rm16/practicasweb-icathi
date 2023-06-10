@@ -1,0 +1,43 @@
+
+table{
+    border-collapse:collapse;
+    margin:10px auto;
+}
+.no{
+    text-align: center;
+}
+.notas{
+    text-align: center;
+}
+
+.tabla1 th{
+    background-color: green;
+}
+
+.misNotas{
+    border: solid black 1px;
+    background-color: yellow;
+}
+.cabeceraNotas{
+    background-color: rgb(161, 206, 243);
+}
+th{
+    border: solid black 1px;
+}
+td{
+    border: 1px solid gray;
+}
+
+
+.contenido2{
+    text-align: center;
+}
+.materias{
+    text-align: left;
+}
+
+.tabla3 td{
+    width: 60px;
+    height: 60px;
+    text-align: center;
+}
